@@ -27,7 +27,7 @@ async function fetchAbi(contractAddress: string, chain: string): Promise<AbiFunc
         throw new Error(`No explorer configured for chain: ${chain}`);
     }
 
-    const apiKey = "J9Q7QZ6A5TFNVIGSVIPPSHWKQVH8STVFUG"
+    const apiKey = "explorer_api_key"
     if (!apiKey) throw new Error(`${explorer.apiKeyEnv} is not set in the environment.`);
 
     const url = `${explorer.url}?module=contract&action=getabi&address=${contractAddress}&apikey=${apiKey}`;

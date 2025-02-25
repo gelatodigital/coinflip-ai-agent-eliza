@@ -36,7 +36,7 @@ The agent uses Gelato for gasless transactions, making the gaming experience sea
 
 1. Clone and checkout the correct branch:
 ```bash
-git clone https://github.com/elizaos/eliza.git
+git clone https://github.com/gelatodigital/coinflip-ai-agent-eliza
 cd eliza
 git checkout update-gelato-plugin
 ```
